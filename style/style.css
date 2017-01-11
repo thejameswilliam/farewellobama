@@ -6,16 +6,16 @@ body {
   padding: 0;
 }
 .content {
-  width:80%;
-  margin: 0 auto;;
   text-align: justify;
 }
 h1 {
   text-align: center;
+  font-size: 28px
 }
 h2 {
   font-style: italic;
   text-align: center;
+  font-size: 22px
 }
 .videoWrapper {
 	position: relative;
@@ -30,8 +30,13 @@ h2 {
 	width: 100%;
 	height: 100%;
 }
+.video {
+  margin: 20px 0;
+}
 footer {
   padding: 20px;
+  width: 100%;
+  float: left;
   margin: 0;
   background-color: #2f2f2f;
   color:#fff;
